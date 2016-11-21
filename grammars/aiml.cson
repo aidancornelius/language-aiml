@@ -1,13 +1,11 @@
-'fileTypes': [
+name: 'AIML'
+scopeName: 'source.aiml'
+fileTypes: [
   'aiml'
 ]
 
-'name': 'AIML'
-
-'patterns': [
+patterns: [
   {
-    'include': 'source.xml'
+    include: 'text.xml'
   }
 ]
-
-'scopeName': 'source.aiml'
